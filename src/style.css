@@ -1,0 +1,40 @@
+/* Style de base pour le conteneur principal de l'application */
+.app-container {
+    max-width: 600px;
+    margin: 50px auto;
+    /* Centre le bloc horizontalement */
+    padding: 20px;
+    /* Ajoute de l’espace interne */
+    background-color: #f5f5f5;
+    /* Couleur de fond douce */
+    border: 1px solid #ddd;
+    /* Bordure légère */
+    border-radius: 8px;
+    /* Coins arrondis */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    /* Ombre légère */
+    font-family: sans-serif;
+    }
+    /* Style complémentaire pour les titres */
+    .app-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    /* Style pour le paragraphe descriptif */
+    .app-container p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+    }
+    /* Style du bouton */
+    .app-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    .app-container button:hover {
+    background-color: #0056b3;
+    }
